@@ -36,6 +36,15 @@ body{
     height: 44rem;
 }
 
+#id{
+    height: 30.5rem;
+    position: absolute;
+    margin-left: 3.2%;
+    margin-top: 0.4%;
+    -webkit-transition: opacity 3000ms;
+    transition: opacity 3000ms;
+}
+
 .instagram-continue {
     display: flex;
     align-items: center;
@@ -125,18 +134,6 @@ body{
 
 .app-download:nth-child(2){
     background-image: url('img/googleplay-button.png');
-}
-
-.img-slide-01 { /*gatinho*/
-    -webkit-transition: opacity 1.5s ease-in;
-    transition: opacity 1.5s ease-in;
-    z-index: 2;
-}
-
-.img-slide-02 { /*folha*/
-    -webkit-transition: opacity 1.5s ease-in;
-    transition: opacity 1.5s ease-in;
-    z-index: 2;
 }
 
 /* Media queries */
