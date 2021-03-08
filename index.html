@@ -1,46 +1,77 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Instagram</title>
-    <link rel="shortcut icon" href="img/instagram.svg" type="image/x-icon">
-</head>
-<body onload="slide1()">
-    <div class="instagram-wrapper">
-        <div class="instagram-phone">
-            <img src="./img/instagram-celular.png" alt="celular">
-            <img id="id">
-        </div>
-        
-        <div class="instagram-continue">
-            <div class="group">
-                <img src="./img/instagram-logo.png" class="instagram-logo" alt="instagram logo">
-                <div class="profile-photo">
-                    <img src="./img/perfil-instagram.jpeg" alt="foto de perfil">
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Instagram</title>
+        <link rel="shortcut icon" href="img/instagram.svg" type="image/x-icon">
+    </head>
+    <body onload="slide1()">
+        <div class="container">
+            <div class="instagram-wrapper">
+                <div class="instagram-phone">
+                    <img src="./img/instagram-celular.png" alt="celular">
+                    <img id="id">
                 </div>
-                <a href="#" class="instagram-login">Continuar como daviteixeira.me</a>
-                <a href="#" class="instagram-logout">Remover conta</a>
-            </div>
-            <div class="group">
-                <p class="not-account">Não é daviteixeira.me?</p>
-                <p class="not-account">
-                    <span class="link-blue">Trocar de conta</span>
-                    ou
-                    <span class="link-blue">Inscreva-se</span>
-                </p>
-            </div>
-            <div class="get-the-app">
-                <p class="get-app">Baixe o aplicativo.</p>
-                <div class="download">
-                    <a href="#" class="app-download"></a>
-                    <a href="#" class="app-download"></a>
+                
+                <div class="instagram-continue">
+                    <div class="group">
+                        <img src="./img/instagram-logo.png" class="instagram-logo" alt="instagram logo">
+                        <div class="profile-photo">
+                            <img src="./img/perfil-instagram.jpeg" alt="foto de perfil">
+                        </div>
+                        <a href="#" class="instagram-login">Continuar como daviteixeira.me</a>
+                        <a href="#" class="instagram-logout">Remover conta</a>
+                    </div>
+                    <div class="group">
+                        <p class="not-account">Não é daviteixeira.me?</p>
+                        <p class="not-account">
+                            <a href="#" class="link-blue">Trocar de conta</a>
+                            ou
+                            <a href="#" class="link-blue">Cadastre-se</a>
+                        </p>
+                    </div>
+                    <div class="get-the-app">
+                        <p class="get-app">Obtenha o aplicativo.</p>
+                        <div class="download">
+                            <a href="#" class="app-download"></a>
+                            <a href="#" class="app-download"></a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    <script src="js/script.js"></script>
-</body>
+        <footer>
+            <div class="primeira-linha">
+                <a href="#">Sobre</a>
+                <a href="#">Blog</a>
+                <a href="#">Carreiras</a>
+                <a href="#">Ajuda</a>
+                <a href="#">API</a>
+                <a href="#">Privacidade</a>
+                <a href="#">Termos</a>
+                <a href="#">Contas mais relevantes</a>
+                <a href="#">Hashtags</a>
+                <a href="#">Localizações</a>
+            </div>
+            <div class="segunda-linha">
+                <a href="#">Beleza</a>
+                <a href="#">Dança e apresentação</a>
+                <a href="#">Fitness</a>
+                <a href="#">Comida e Bebida</a>
+                <a href="#"> Casa e jardim</a>
+                <a href="#">Música</a>
+                <a href="#">Artes visuais</a>
+            </div>
+            <div class="ultima-linha">
+                <select>
+                   <option >Português (Brasil)</option> 
+                </select>
+                <a href="#">© 2021 Instagram do Facebook</a>
+            </div>
+        </footer>
+        <script src="js/script.js"></script>
+    </body>
 </html>

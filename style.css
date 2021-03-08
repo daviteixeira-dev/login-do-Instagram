@@ -7,14 +7,14 @@
     font-size: 14px;
 }
 
-body{
-    width: 100%;
-    min-height: 100vh;
+body{ 
     background-color: rgb(243,243,243);
-    margin: 0;
-    padding: 0;
+}
+
+.container{
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .instagram-wrapper{
@@ -23,6 +23,7 @@ body{
     justify-content: start;
     width: 60%;
     height: 100vh;
+    margin-top: 2%;
 }
 
 .instagram-phone{
@@ -62,7 +63,9 @@ body{
     background-color: #ffffff;
     width: 100%;
     padding: 1.3rem 0;
+    margin-top: .8rem;
     border: 1px solid lightgray;
+    line-height: 1.5rem;
 }
 
 .group:nth-child(1){
@@ -95,13 +98,15 @@ body{
 .instagram-logout {
     color: #0095f6;
     margin-top: 1rem;
+    font-weight: bold;
 }
 
 .not-account{
-    color: rgb(160, 160, 160);
+    color: rgba(38,38,38,1);
 }
 
 .link-blue {
+    font-weight: bold;
     color: #0095f6;
 }
 
@@ -134,6 +139,59 @@ body{
 
 .app-download:nth-child(2){
     background-image: url('img/googleplay-button.png');
+}
+
+footer {
+    margin: 3% 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+footer .primeira-linha{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .primeira-linha a{
+    margin: 0 0.5%;
+    color: rgb(160, 160, 160);
+    font-size: 12px;
+}
+
+footer .segunda-linha{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .segunda-linha a{
+    margin: 1% 0.5%;
+    color: rgb(160, 160, 160);
+    font-size: 12px;
+}
+
+footer .ultima-linha{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .ultima-linha a{
+    margin: 1%;
+    color: rgb(160, 160, 160);
+    font-size: 12px;
+}
+
+footer .ultima-linha select{
+    background: rgb(243,243,243);
+    color: rgb(160, 160, 160);
+    border: none;
+    font-size: 12px;
 }
 
 /* Media queries */
