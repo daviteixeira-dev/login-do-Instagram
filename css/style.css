@@ -134,11 +134,11 @@ body{
 }
 
 .app-download:nth-child(1){
-    background-image: url('img/apple-button.png');
+    background-image: url('../img/apple-button.png');
 }
 
 .app-download:nth-child(2){
-    background-image: url('img/googleplay-button.png');
+    background-image: url('../img/googleplay-button.png');
 }
 
 footer {
@@ -192,34 +192,4 @@ footer .ultima-linha select{
     color: rgb(160, 160, 160);
     border: none;
     font-size: 12px;
-}
-
-/* Media queries */
-
-@media (max-width: 1024px){
-    .instagram-wrapper{
-        width: 90%;
-    }
-}
-
-@media (max-width: 650px){
-    body{
-        background-color: #ffffff;
-    }
-
-    .instagram-wrapper{
-        width: 90%;
-    }
-
-    .instagram-phone{
-        display: none;
-    }
-
-    .instagram-continue {
-        width: 100%;
-    }
-
-    .group{
-        border: 1px solid transparent;
-    }
 }

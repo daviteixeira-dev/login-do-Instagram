@@ -1,0 +1,119 @@
+/* Media queries */
+
+/* Laptop */
+@media screen and (max-width: 1024px){
+
+    .instagram-wrapper{
+        width: 90%;
+    }
+
+    .instagram-phone {
+        margin-top: 10%;
+    }
+
+    #id{
+        margin-left: 4.2%;
+        margin-top: 0.4%;
+    }
+
+    footer {
+        margin-top: 13%;
+    }
+}
+
+/* Tablet */
+@media screen and (max-width: 768px){
+
+    .instagram-wrapper{
+        width: 90%;
+        height: 90%;
+    }
+
+    .instagram-phone{
+        display: none;
+    }
+
+    .instagram-continue {
+        width: 100%;
+    }
+
+    .group {
+        width: 50%;
+    }
+
+    .download {
+        width: 60%;
+    }
+
+    footer {
+        margin: 5% 0;
+    }
+
+    footer .primeira-linha a {
+        margin: 0 1%;
+    }
+
+    footer .segunda-linha a {
+        margin: 1% 1%;
+    }
+}
+
+/*Mobile L*/
+@media screen and (max-width: 425px){
+
+    body {
+        background-color: white;
+    }
+
+    .instagram-wrapper{
+        width: 90%;
+    }
+
+    .instagram-continue {
+        min-height: auto;
+    }
+
+    .group {
+        width: 60%;
+        border: 1px solid transparent;
+    }
+
+    .get-the-app {
+        display: none;
+    }
+
+    footer {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    footer .primeira-linha, .segunda-linha, .ultima-linha{
+        margin: 1% 0;
+        flex-wrap: wrap;
+    }
+
+    footer .primeira-linha a {
+        margin: 1% 1%;
+    }
+
+    footer .segunda-linha a {
+        margin: 1% 1%;
+    }
+}
+
+/*Mobile M*/
+@media screen and (max-width: 375px){
+
+    .group{
+        width: 100%;
+        margin: auto;
+    }
+
+    .profile-photo {
+        margin-top: 10%;
+    }
+
+    .group a {
+        margin-top: 10%;
+    }
+}
