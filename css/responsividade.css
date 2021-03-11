@@ -1,8 +1,16 @@
 /* Media queries */
 
-@media screen and (max-width: 1349px){
-    
+@media screen and (max-width: 1440px){
+    #id{
+        margin-left: 6.1%;
+        margin-top: 1.2%;
+    }
+}
 
+@media screen and (max-width: 1280px){
+    #id{
+        margin-left: 6.9%;
+    }
 }
 
 /* Laptop */
@@ -23,6 +31,13 @@
 
     footer {
         margin-top: 13%;
+    }
+}
+
+@media screen and (max-width: 800px){
+    #id{
+        margin-left: 10.7%;
+        margin-top: 1.2%;
     }
 }
 
