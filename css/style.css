@@ -40,8 +40,8 @@ body{
 #id{
     height: 30.5rem;
     position: absolute;
-    margin-left: 3.2%;
-    margin-top: 0.4%;
+    margin-left: 6.5%;
+    margin-top: 0.6%;
     -webkit-transition: opacity 3000ms;
     transition: opacity 3000ms;
 }
